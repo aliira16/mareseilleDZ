@@ -5,7 +5,7 @@ import pg from "pg"
 
 const app = express();
 const port = 5000;
-let last ="last"
+let last = "new"
 
 app.use(express.json());
 

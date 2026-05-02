@@ -7,6 +7,7 @@ const app = express();
 const port = 5000;
 let last = "new"
 let desktop = "done"
+let laptop = "done"
 
 app.use(express.json());
 

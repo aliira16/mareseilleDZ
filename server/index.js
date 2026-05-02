@@ -6,6 +6,7 @@ import pg from "pg"
 const app = express();
 const port = 5000;
 let last = "new"
+let desktop = "done"
 
 app.use(express.json());
 
